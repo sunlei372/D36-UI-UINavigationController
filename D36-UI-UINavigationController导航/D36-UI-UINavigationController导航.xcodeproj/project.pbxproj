@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		713783A21CB55E29001DC6C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 713783A11CB55E29001DC6C0 /* main.m */; };
 		713783A51CB55E29001DC6C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 713783A41CB55E29001DC6C0 /* AppDelegate.m */; };
-		713783A81CB55E29001DC6C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 713783A71CB55E29001DC6C0 /* ViewController.m */; };
-		713783AB1CB55E29001DC6C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713783A91CB55E29001DC6C0 /* Main.storyboard */; };
 		713783AD1CB55E29001DC6C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 713783AC1CB55E29001DC6C0 /* Assets.xcassets */; };
 		713783B01CB55E29001DC6C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713783AE1CB55E29001DC6C0 /* LaunchScreen.storyboard */; };
+		71A8A6941CB682BA0011BDC2 /* SLRedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A8A6921CB682BA0011BDC2 /* SLRedViewController.m */; };
+		71A8A6951CB682BA0011BDC2 /* SLRedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A8A6931CB682BA0011BDC2 /* SLRedViewController.xib */; };
+		71A8A69A1CB689DF0011BDC2 /* SLBlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A8A6981CB689DF0011BDC2 /* SLBlueViewController.m */; };
+		71A8A69B1CB689DF0011BDC2 /* SLBlueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A8A6991CB689DF0011BDC2 /* SLBlueViewController.xib */; };
+		71A8A6A01CB690110011BDC2 /* SLGreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A8A69E1CB690110011BDC2 /* SLGreenViewController.m */; };
+		71A8A6A11CB690110011BDC2 /* SLGreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A8A69F1CB690110011BDC2 /* SLGreenViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,18 @@
 		713783A11CB55E29001DC6C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		713783A31CB55E29001DC6C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		713783A41CB55E29001DC6C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		713783A61CB55E29001DC6C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		713783A71CB55E29001DC6C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		713783AA1CB55E29001DC6C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		713783AC1CB55E29001DC6C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		713783AF1CB55E29001DC6C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		713783B11CB55E29001DC6C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71A8A6911CB682BA0011BDC2 /* SLRedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLRedViewController.h; sourceTree = "<group>"; };
+		71A8A6921CB682BA0011BDC2 /* SLRedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLRedViewController.m; sourceTree = "<group>"; };
+		71A8A6931CB682BA0011BDC2 /* SLRedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLRedViewController.xib; sourceTree = "<group>"; };
+		71A8A6971CB689DF0011BDC2 /* SLBlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBlueViewController.h; sourceTree = "<group>"; };
+		71A8A6981CB689DF0011BDC2 /* SLBlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBlueViewController.m; sourceTree = "<group>"; };
+		71A8A6991CB689DF0011BDC2 /* SLBlueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLBlueViewController.xib; sourceTree = "<group>"; };
+		71A8A69D1CB690110011BDC2 /* SLGreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLGreenViewController.h; sourceTree = "<group>"; };
+		71A8A69E1CB690110011BDC2 /* SLGreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLGreenViewController.m; sourceTree = "<group>"; };
+		71A8A69F1CB690110011BDC2 /* SLGreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLGreenViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +68,11 @@
 		7137839F1CB55E29001DC6C0 /* D36-UI-UINavigationController导航 */ = {
 			isa = PBXGroup;
 			children = (
+				71A8A69C1CB690040011BDC2 /* green */,
+				71A8A6961CB689D10011BDC2 /* blue */,
+				71A8A6901CB682810011BDC2 /* red */,
 				713783A31CB55E29001DC6C0 /* AppDelegate.h */,
 				713783A41CB55E29001DC6C0 /* AppDelegate.m */,
-				713783A61CB55E29001DC6C0 /* ViewController.h */,
-				713783A71CB55E29001DC6C0 /* ViewController.m */,
-				713783A91CB55E29001DC6C0 /* Main.storyboard */,
 				713783AC1CB55E29001DC6C0 /* Assets.xcassets */,
 				713783AE1CB55E29001DC6C0 /* LaunchScreen.storyboard */,
 				713783B11CB55E29001DC6C0 /* Info.plist */,
@@ -77,6 +87,36 @@
 				713783A11CB55E29001DC6C0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71A8A6901CB682810011BDC2 /* red */ = {
+			isa = PBXGroup;
+			children = (
+				71A8A6911CB682BA0011BDC2 /* SLRedViewController.h */,
+				71A8A6921CB682BA0011BDC2 /* SLRedViewController.m */,
+				71A8A6931CB682BA0011BDC2 /* SLRedViewController.xib */,
+			);
+			name = red;
+			sourceTree = "<group>";
+		};
+		71A8A6961CB689D10011BDC2 /* blue */ = {
+			isa = PBXGroup;
+			children = (
+				71A8A6971CB689DF0011BDC2 /* SLBlueViewController.h */,
+				71A8A6981CB689DF0011BDC2 /* SLBlueViewController.m */,
+				71A8A6991CB689DF0011BDC2 /* SLBlueViewController.xib */,
+			);
+			name = blue;
+			sourceTree = "<group>";
+		};
+		71A8A69C1CB690040011BDC2 /* green */ = {
+			isa = PBXGroup;
+			children = (
+				71A8A69D1CB690110011BDC2 /* SLGreenViewController.h */,
+				71A8A69E1CB690110011BDC2 /* SLGreenViewController.m */,
+				71A8A69F1CB690110011BDC2 /* SLGreenViewController.xib */,
+			);
+			name = green;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,6 +145,7 @@
 		713783951CB55E29001DC6C0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SL;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = sunlei;
 				TargetAttributes = {
@@ -136,9 +177,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A8A6951CB682BA0011BDC2 /* SLRedViewController.xib in Resources */,
 				713783B01CB55E29001DC6C0 /* LaunchScreen.storyboard in Resources */,
 				713783AD1CB55E29001DC6C0 /* Assets.xcassets in Resources */,
-				713783AB1CB55E29001DC6C0 /* Main.storyboard in Resources */,
+				71A8A6A11CB690110011BDC2 /* SLGreenViewController.xib in Resources */,
+				71A8A69B1CB689DF0011BDC2 /* SLBlueViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,23 +192,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				713783A81CB55E29001DC6C0 /* ViewController.m in Sources */,
+				71A8A6941CB682BA0011BDC2 /* SLRedViewController.m in Sources */,
 				713783A51CB55E29001DC6C0 /* AppDelegate.m in Sources */,
+				71A8A6A01CB690110011BDC2 /* SLGreenViewController.m in Sources */,
 				713783A21CB55E29001DC6C0 /* main.m in Sources */,
+				71A8A69A1CB689DF0011BDC2 /* SLBlueViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		713783A91CB55E29001DC6C0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				713783AA1CB55E29001DC6C0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		713783AE1CB55E29001DC6C0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -300,6 +337,7 @@
 				713783B61CB55E29001DC6C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
